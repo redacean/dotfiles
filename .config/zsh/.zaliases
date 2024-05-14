@@ -1,0 +1,15 @@
+# My zsh aliases
+
+# use neovim instead of vim
+alias vim='nvim'
+
+# list
+alias ll='ls -lh'
+alias la='ls -lah'
+
+# copy to clipboard with xclip
+alias copy='xclip -selection clipboard'
+
+# track dotfiles with git
+alias dotfiles='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+
